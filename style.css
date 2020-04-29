@@ -1,0 +1,67 @@
+.container-5 {
+	border:2px dotted black;
+	border-radius: 5px;
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+.flex-blackjack-row-3 {
+	background: gray;
+}
+
+.flex-blackjack-row-1,.flex-blackjack-row-2, .flex-blackjack-row-3 {
+	display: flex;
+	padding: 10px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.flex-blackjack-row-1,.flex-blackjack-row-2 {
+	background: url('images/blackjack.jpg') center;
+	color: #fff;
+}
+
+.flex-blackjack-row-1 div {
+	
+	padding: 10px;
+	flex: 1;
+	text-align: center;
+	height: 350px;
+}
+
+.flex-blackjack-row-1 img {
+	width: 25%;
+	padding: 10px;	
+}
+
+.flex-blackjack-row-2 button {
+	padding: 10px;
+} 
+
+.flex-blackjack-row-2 div {
+	border: 1px dashed blue;
+	padding: 10px;	
+}
+
+table, th, td {
+	border: 1px solid white;
+	padding: 5px;
+}
+
+.win {
+	color: green;	
+}
+
+.loss {
+	color: red;
+}
+
